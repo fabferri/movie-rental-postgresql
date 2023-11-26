@@ -1,22 +1,22 @@
 
 
 <properties
-pageTitle= 'Movie Rental in PostegreSQL'
-description= "Movie Rental in PostegreSQL"
+pageTitle = 'Movie Rental in PostgreSQL'
+description = "Movie Rental in PostgreSQL"
 documentationcenter: na
-services="PostgreSQL"
-documentationCenter="github"
-authors="fabferri"
-editor=""/>
+services = "PostgreSQL"
+documentationCenter = "github"
+authors = "fabferri"
+editor = ""/>
 
 <tags
-   ms.service="Example of PostgreSQL"
-   ms.devlang="na"
-   ms.topic="DB"
-   ms.tgt_pltfrm="na"
-   ms.workload="PostegreSQL"
-   ms.date="26/11/2023"
-   ms.author="fabferri" />
+   ms.service = "Example of PostgreSQL"
+   ms.devlang = "na"
+   ms.topic = "DB"
+   ms.tgt_pltfrm = "linux, windows"
+   ms.workload = "PostgreSQL"
+   ms.date = "26/11/2023"
+   ms.author = "fabferri" />
 
 # Movie rental in PostgreSQL
 The Entity Relationship (ER) diagram is shown below:
@@ -33,7 +33,7 @@ The Entity Relationship (ER) diagram is shown below:
 | **payment.sql**       | generate the transaction for movie rental                                               |
 | **generate-users.py** | python script to generate the file **user.sql**. run the file only if you want to generate other users. the fist name, last name, address are randomly generated |
 
-`Tags:PostegreSQL` <br>
+`Tags:PostgreSQL` <br>
 `date: 16-11-2023`
 
 <!--Image References-->
