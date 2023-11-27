@@ -33,6 +33,10 @@ The Entity Relationship (ER) diagram is shown below:
 | **payment.sql**       | generate the transaction for movie rental                                               |
 | **generate-users.py** | python script to generate the file **user.sql**. run the file only if you want to generate other users. the fist name, last name, address are randomly generated |
 
+
+## <a name="PostgreSQL introduction"></a>2. PostgreSQL: introduction
+[A basic introduction to PostgreSQL management][def]
+
 `Tags:PostgreSQL` <br>
 `date: 16-11-2023`
 
@@ -40,5 +44,6 @@ The Entity Relationship (ER) diagram is shown below:
 
 [1]: ./media/er-diagram.png "Entity Relationship (ER) diagram"
 
-
 <!--Link References-->
+
+[def]: ./postgresql.md

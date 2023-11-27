@@ -21,7 +21,7 @@ DECLARE
    maxVal integer := 50;
    minVal integer  := 5;
 BEGIN 
-   FOR i IN 1..100 LOOP
+   FOR i IN 1..1000 LOOP
       INSERT INTO moviePayment(customer_id,movie_id, amount, expire_date)
       VALUES 
         ( (SELECT customer_id FROM customer ORDER BY random() Limit 1),
