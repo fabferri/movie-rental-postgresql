@@ -32,10 +32,17 @@ The Entity Relationship (ER) diagram is shown below:
 | **users.sql**         | generate the reconrds in the table **customer**                                         |
 | **payment.sql**       | generate the transaction for movie rental                                               |
 | **generate-users.py** | python script to generate the file **user.sql**. run the file only if you want to generate other users. the fist name, last name, address are randomly generated |
+| **install-postgre.sh** | install PostgreSQL in ubuntu host/VM |
+| **postgresql.md**      | A basic introduction to PostgreSQL   |
 
+
+The PostgreSQL scripts should run in sequence:
+1. **movies .sql**
+2. **users.sql** 
+3. **payment.sql**
 
 ## <a name="PostgreSQL introduction"></a>2. PostgreSQL: introduction
-[A basic introduction to PostgreSQL management][def]
+[A basic introduction to PostgreSQL][def]
 
 `Tags:PostgreSQL` <br>
 `date: 16-11-2023`
