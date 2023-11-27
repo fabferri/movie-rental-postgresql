@@ -34,7 +34,7 @@ To check the connection to PostgreSQL and the TCP port (default is 5432):
 \conninfo
 ```
 
-### <a name="Create user and DB"></a>1.2 PosteGre roles 
+### <a name="Create user and DB"></a>1.2 Postgre roles 
 PostgreSQL roles enable you to control the access and capabilities of users who access a PostgreSQL instance. <br>
 PostgreSQL roles can be a single role, or they can function as a group of roles. A user is a role with the ability to log in (the role has the LOGIN attribute) <br>
 By default, when PostgresSQL server is created, the only user that exists is **postgres**. <br>
@@ -43,11 +43,10 @@ The **postgres** user is the most highly privileged database user.<br>
 Users, groups, and roles are the same thing in PostgreSQL, with the only difference being that users have permission to log in by default. The **CREATE USER** and **CREATE GROUP** statements are actually aliases for the CREATE ROLE statement. <br>
 
 
-To create a PostgreSQL user, use the following SQL statement:
+To create a PostgreSQL user, use one of following statements:
 ```sql
 CREATE USER your_username WITH PASSWORD 'your_password';
 ```
-You can also create a user with the following SQL statement:
 ```sql
 CREATE ROLE your_username WITH LOGIN PASSWORD 'your_password';
 ```
