@@ -29,8 +29,8 @@ The Entity Relationship (ER) diagram is shown below:
 | File name             | Description                                                                             |
 | --------------------- | --------------------------------------------------------------------------------------- |
 | **movies .sql**       | generate the DB **movies**                                                              |
-| **users.sql**         | generate the reconrds in the table **customer**                                         |
-| **payment.sql**       | generate the transaction for movie rental                                               |
+| **users.sql**         | generate the records in the table **customer**                                          |
+| **payment.sql**       | generate the transactions for movie rental                                              |
 | **generate-users.py** | python script to generate the file **user.sql**. run the file only if you want to generate other users. the fist name, last name, address are randomly generated |
 | **install-postgre.sh** | install PostgreSQL in ubuntu host/VM |
 | **postgresql.md**      | A basic introduction to PostgreSQL   |
